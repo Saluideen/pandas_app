@@ -1,0 +1,13 @@
+{
+ "creation": "2024-06-27 14:46:08.170470",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2024-06-27 14:46:08.170470",
+ "modified_by": "Administrator",
+ "module": "Pandas App",
+ "name": "Sample",
+ "owner": "Administrator",
+ "source_name": "Sample",
+ "timeseries": 1
+}

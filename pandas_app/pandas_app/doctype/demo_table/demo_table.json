@@ -1,0 +1,68 @@
+{
+ "actions": [
+  {
+   "action": "/Contact",
+   "action_type": "Route",
+   "label": "View"
+  }
+ ],
+ "allow_rename": 1,
+ "creation": "2024-06-21 14:34:09.602105",
+ "doctype": "DocType",
+ "documentation": "www.google.com",
+ "engine": "InnoDB",
+ "field_order": [
+  "item",
+  "amount_1",
+  "amount_2"
+ ],
+ "fields": [
+  {
+   "fieldname": "item",
+   "fieldtype": "Data",
+   "label": "Item"
+  },
+  {
+   "fieldname": "amount_1",
+   "fieldtype": "Data",
+   "label": "Amount 1"
+  },
+  {
+   "fieldname": "amount_2",
+   "fieldtype": "Data",
+   "label": "Amount 2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Demo",
+   "link_fieldname": "link"
+  }
+ ],
+ "modified": "2024-07-01 13:47:05.700401",
+ "modified_by": "Administrator",
+ "module": "Pandas App",
+ "name": "demo table",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "amount_1,amount_2",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "item"
+}

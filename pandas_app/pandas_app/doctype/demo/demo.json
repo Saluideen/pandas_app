@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-11 10:30:45.889485",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "name1",
+  "amount",
+  "balance",
+  "search_text",
+  "link",
+  "dynamic",
+  "form_builder",
+  "column_break_eboa",
+  "parent_link",
+  "amount_demo"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "search_index": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "balance",
+   "fieldtype": "Data",
+   "label": "Balance"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Link",
+   "label": "Link",
+   "options": "demo table"
+  },
+  {
+   "fieldname": "search_text",
+   "fieldtype": "Link",
+   "label": "Search Text",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "dynamic",
+   "fieldtype": "Dynamic Link",
+   "label": "dynamic",
+   "options": "search_text"
+  },
+  {
+   "fieldname": "form_builder",
+   "fieldtype": "HTML",
+   "label": "form_builder"
+  },
+  {
+   "fieldname": "column_break_eboa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "parent_link",
+   "fieldtype": "Link",
+   "label": "Parent",
+   "link_filters": "[[{\"fieldname\":\"parent_link\",\"field_option\":\"DocType\"},\"name\",\"=\",\"demo table\"]]",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "amount_demo",
+   "fieldtype": "Dynamic Link",
+   "label": "amount",
+   "options": "parent_link"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-03 11:04:30.022627",
+ "modified_by": "Administrator",
+ "module": "Pandas App",
+ "name": "Demo",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "timeline_field": "link"
+}

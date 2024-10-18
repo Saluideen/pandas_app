@@ -1,0 +1,30 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-08 09:52:17.577213",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sample"
+ ],
+ "fields": [
+  {
+   "fieldname": "sample",
+   "fieldtype": "Link",
+   "label": "Sample",
+   "options": "sample"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-08 09:54:23.379271",
+ "modified_by": "Administrator",
+ "module": "Pandas App",
+ "name": "sample link",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

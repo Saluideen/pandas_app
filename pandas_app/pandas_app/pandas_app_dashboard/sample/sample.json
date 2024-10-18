@@ -1,0 +1,25 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "sample",
+   "width": "Half"
+  },
+  {
+   "chart": "Sample test",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-06-27 14:43:50.479155",
+ "dashboard_name": "Sample",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-06-27 14:48:15.225528",
+ "modified_by": "Administrator",
+ "module": "Pandas App",
+ "name": "Sample",
+ "owner": "Administrator"
+}

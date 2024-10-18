@@ -1,0 +1,30 @@
+{
+ "attach_print": 1,
+ "channel": "System Notification",
+ "creation": "2024-06-28 11:41:16.589233",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "demo table",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>hii</p>\n",
+ "message_type": "HTML",
+ "modified": "2024-06-28 11:56:45.138464",
+ "modified_by": "Administrator",
+ "module": "Pandas App",
+ "name": "demo notification",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Administrator"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "set_property_after_alert": "",
+ "subject": "{{doc.name}} Delivered"
+}
